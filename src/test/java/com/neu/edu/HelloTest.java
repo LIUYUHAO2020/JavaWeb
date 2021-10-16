@@ -7,5 +7,6 @@ public class HelloTest {
     public void HelloTest(){
         Hello hello = new Hello();
         System.out.println(hello.toString()+"Hello Git");
+        System.out.println("解决ISS52");
     }
 }
