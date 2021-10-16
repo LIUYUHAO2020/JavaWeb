@@ -7,7 +7,14 @@ public class HelloTest {
     public void HelloTest(){
         Hello hello = new Hello();
         System.out.println(hello.toString()+"Hello Git");
-        System.out.println("解决主干问题");
-        System.out.println("解决主干问题");
+
+        if(true){
+            System.out.println("解决ISS52");
+        }else{
+            System.out.println("解决主干问题");
+            System.out.println("解决主干问题");
+        }
+
+
     }
 }
